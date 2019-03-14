@@ -18,6 +18,24 @@ body{
     background-size: cover;
 }
 
+div {padding: 20%;
+background: transparent;
+max-width:85%;
+min-width:50%;}
+
+button {padding: 6px;
+    color:white;
+    background-color:teal;
+border-color: orangered;
+border-bottom-width: thick;
+border-radius: 50%;}
+
+button:hover {color:white;
+    background-color:forestgreen;
+    border-color: white;
+
+border-bottom-width: thick;
+border-radius: 50%;}
 
 /* General Typography
 --------------------------------------------- */ 
@@ -30,7 +48,8 @@ p {
     font-size: 1.2em;
     margin-left: 13%;
     margin-right: 3%;
-    text-size-adjust: none;
+    text-size-adjust: auto;
+    font-size-adjust: auto;
 }
 h1 {
     font-family: Oswald;
@@ -42,16 +61,6 @@ h1 {
 
 /* Large screen layout
 --------------------------------------------- */  
-@media screen and (min-width: 30em) {
 
-  
-  /* parallax */
-  @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
-
-    html, body {
-      overflow: hidden;
-      height: 100%;
-        background: black;
-    }
 
     
