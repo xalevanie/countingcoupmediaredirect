@@ -26,19 +26,22 @@ min-width:70%;}
 button {
     display: block;
     margin: auto;
+   margin-top: 8px;
+    margin-bottom: 8px;
     padding: 16px;
     color:white;
     background-color:transparent;
 border-color: teal;
 border-width: medium;
-border-radius: 30%;}
+border-radius: 15px 50px;
+}
 
 button:hover {color:white;
     background-color:teal;
     border-color: white;
 
 border-width: medium;
-border-radius: 30%;
+border-radius: 15px 50px;
 transition: 0.3s;}
 
 /* General Typography
