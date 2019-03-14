@@ -6,7 +6,6 @@
 
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     padding-top: 0;
@@ -14,7 +13,7 @@
 }
 
 body{
-    background-image: url(../img/Everyday2.JPG);
+    background-image: url(../img/Everyday2halfsize.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -38,6 +37,7 @@ h1 {
     font-weight: 500;
     color: White;
     text-size-adjust: auto;
+    margin: auto;}
 
 
 /* Large screen layout
